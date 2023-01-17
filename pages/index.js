@@ -24,8 +24,8 @@ export default function Home() {
       const _results = words.filter((word) => {
         let include = false;
 
-        if (word.word.includes(_value)) include = true;
-        if (word.definition.includes(_value)) include = true;
+        if (word.word.toLowerCase().includes(_value).toLowerCase()) include = true;
+        if (word.definition.toLowerCase().includes(_value).toLowerCase()) include = true;
 
         return include;
       });
