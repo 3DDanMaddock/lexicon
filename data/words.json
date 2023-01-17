@@ -1,0 +1,410 @@
+[
+  {
+    "word": "Table",
+    "definition": "Tables available to store instance data. Each table stores a collection of records. Each row corresponds to a single record, and each column corresponds to a field. Applications use tables and records to manage data and processes."
+  },
+  {
+    "word": "Table Column",
+    "definition": "Controls to specify the properties of database tables and columns such as data type, length, and default value"
+  },
+  {
+    "word": "Many To Many Definition",
+    "definition": "Many-to-many relationship between two tables for allowing one table to be a related list of another"
+  },
+  {
+    "word": "Relationship",
+    "definition": "Controls to create a relationship between two data tables, which are required to display related lists"
+  },
+  {
+    "word": "Form",
+    "definition": "Controls to specify what fields to show on a form for a particular view or user"
+  },
+  {
+    "word": "List Layout",
+    "definition": "Controls to specify what columns to show on a list for a particular view or user"
+  },
+  {
+    "word": "List Control",
+    "definition": "Controls to specify which list features are available such as displaying the New and Edit buttons"
+  },
+  {
+    "word": "Related List",
+    "definition": "Related lists display records in another table that have a relationship to the current record. Users can view and modify information in related lists using standard list controls."
+  },
+  {
+    "word": "Style",
+    "definition": "Controls to specify the CSS styling of a particular field"
+  },
+  {
+    "word": "Context Menu",
+    "definition": "Controls to create a custom link in a list or form's contextual menu to perform a particular action"
+  },
+  {
+    "word": "View Rule",
+    "definition": "Controls to automatically set the Form View based on record field values"
+  },
+  {
+    "word": "UI Page",
+    "definition": "Custom Jelly-based HTML pages available to the system"
+  },
+  {
+    "word": "Schedule Page",
+    "definition": "Script-based controls for generating calendars and timelines"
+  },
+  {
+    "word": "Timeline Page",
+    "definition": "Record changes that occur between two predefined dates"
+  },
+  {
+    "word": "Map Page",
+    "definition": "Geographical maps to associate with records in the database"
+  },
+  {
+    "word": "Template",
+    "definition": "Controls to pre-populate particular forms with record data"
+  },
+  {
+    "word": "UI Macro",
+    "definition": "Custom Jelly-based user interface elements available for lists, forms, and pages"
+  },
+  {
+    "word": "UI Formatter",
+    "definition": "Controls to specify what custom user interface to display on a particular form"
+  },
+  {
+    "word": "Embedded Help",
+    "definition": "Provides targeted help content to a user in a UI page, based on their role. Embedded Help Content appears in the right sidebar when the user clicks the help icon."
+  },
+  {
+    "word": "Guided Tour",
+    "definition": "Provides a way to demonstrate to users how to use a feature or perform a task in the platform. You create a set of tour steps with callouts that point to appropriate UI elements, and provide the description or instruction to proceed. You select a specific event as a trigger in each step to advance to the next step."
+  },
+  {
+    "word": "Business Rule",
+    "definition": "Business logic to execute in response to an operation against a particular database record. These business rules may take declarative actions or include arbitrary scripting."
+  },
+  {
+    "word": "Script Include",
+    "definition": "Server-side JavaScript classes available to the system"
+  },
+  {
+    "word": "UI Action",
+    "definition": "Controls to create a custom button or link on lists or forms to perform a particular action"
+  },
+  {
+    "word": "Data Policy",
+    "definition": "Rules to enforce data integrity and policy"
+  },
+  {
+    "word": "Processor",
+    "definition": "HTTP endpoints available to perform arbitrary scripting actions"
+  },
+  {
+    "word": "Scheduled Script Execution",
+    "definition": "Scripts available to the system to run on a schedule without needing a user transaction"
+  },
+  {
+    "word": "Event Registration",
+    "definition": "Controls for registering events and associating them with a table"
+  },
+  {
+    "word": "Script Action",
+    "definition": "Custom scripts to run when the system receives a registered system event"
+  },
+  {
+    "word": "Fix Script",
+    "definition": "Scripts to fix data, schema, or settings during an upgrade"
+  },
+  {
+    "word": "Client Script",
+    "definition": "Client-side JavaScript for running business logic on forms when certain browser events occur"
+  },
+  {
+    "word": "UI Policy",
+    "definition": "Controls to specify what fields are visible and editable on a form based on its current content"
+  },
+  {
+    "word": "UI Script",
+    "definition": "UI scripts provide a way to package client-side JavaScript into a reusable form, similar to how script includes store server-side JavaScript. Administrators can create UI scripts and run them from client scripts and other client-side script objects and from HTML code."
+  },
+  {
+    "word": "Assignment Data Lookup",
+    "definition": "Rules for assigning incidents based on certain value combinations"
+  },
+  {
+    "word": "Priority Data Lookup",
+    "definition": "Rules for setting incident priority based on certain value combinations"
+  },
+  {
+    "word": "Data Lookup Definitions",
+    "definition": "Controls for automatically changing records values based on data lookup rules"
+  },
+  {
+    "word": "Role",
+    "definition": "Security tokens to control access to user interface elements such as menus, modules, tables, and fields"
+  },
+  {
+    "word": "Public Pages",
+    "definition": "Controls for allowing users to view a page without having to log in or pass access controls"
+  },
+  {
+    "word": "Application Menu",
+    "definition": "Application menus available for the application navigator - sys_app_application"
+  },
+  {
+    "word": "Module",
+    "definition": "Links available to display within application menus - sys_app_module"
+  },
+  {
+    "word": "Application Menu (Mobile)",
+    "definition": "Controls for grouping modules in the application navigator - sys_ui_application"
+  },
+  {
+    "word": "Module (Mobile)",
+    "definition": "Controls for creating links to lists, UI pages, or reports in the application navigator - sys_ui_module"
+  },
+  {
+    "word": "Notification",
+    "definition": "Email notifications available to the system - sysevent_email_action"
+  },
+  {
+    "word": "Email Template",
+    "definition": "Templates for creating email notifications - sysevent_email_template"
+  },
+  {
+    "word": "Inbound Email Actions",
+    "definition": "Controls to specify how the system processes incoming email it receives - sysevent_in_email_action"
+  },
+  {
+    "word": "Service Portal",
+    "definition": "sp_portal"
+  },
+  {
+    "word": "Service Portal Page",
+    "definition": "sp_page"
+  },
+  {
+    "word": "Widget",
+    "definition": "sp_widget"
+  },
+  {
+    "word": "Theme",
+    "definition": "sp_theme"
+  },
+  {
+    "word": "JS Include",
+    "definition": "sp_js_include"
+  },
+  {
+    "word": "Widget Dependency",
+    "definition": "sp_dependency"
+  },
+  {
+    "word": "Site",
+    "definition": "Group of pages that follow a set of consistent design elements such as the Employee Self-Service (ESS) portal - content_site"
+  },
+  {
+    "word": "Content Link",
+    "definition": "Collection of links to internal content, attachments, or external URLs - content_link"
+  },
+  {
+    "word": "Content Theme",
+    "definition": "Group of style sheets that define the appearance of a site - content_theme"
+  },
+  {
+    "word": "Content Block - Detail",
+    "definition": "Content blocks for showing the details of a specific record - content_block_detail"
+  },
+  {
+    "word": "Content Block - Flash",
+    "definition": "Content blocks for Flash movies - content_block_flash"
+  },
+  {
+    "word": "Content Block - Header",
+    "definition": "Content blocks for headers - content_block_header"
+  },
+  {
+    "word": "Content Block - IFrame",
+    "definition": "Content blocks for iFrame containers - content_block_iframe"
+  },
+  {
+    "word": "Content Block - List",
+    "definition": "Content blocks for a list of records - content_block_lists"
+  },
+  {
+    "word": "Content Block - Menu",
+    "definition": "Content blocks for navigation menu containers - content_block_menu"
+  },
+  {
+    "word": "Content Block - Programmatic",
+    "definition": "Content blocks for dynamically-generated script data - content_block_programmatic"
+  },
+  {
+    "word": "Content Block - Static",
+    "definition": "Content blocks for static HTML data - content_block_static"
+  },
+  {
+    "word": "Style Sheet",
+    "definition": "Collection of CSS style sheets, organized by theme - content_css"
+  },
+  {
+    "word": "Portal Page",
+    "definition": "Pages available to create CMS sites - sys_portal_page"
+  },
+  {
+    "word": "Images",
+    "definition": "Image files available to the system - db_image"
+  },
+  {
+    "word": "Video",
+    "definition": "Video files available to the system - db_video"
+  },
+  {
+    "word": "Audio",
+    "definition": "db_audio"
+  },
+  {
+    "word": "Catalog Item",
+    "definition": "Catalog items available to the Service Catalog - sc_cat_item"
+  },
+  {
+    "word": "Record Producer",
+    "definition": "Catalog Items to create Task records from the Service Catalog - sc_cat_item_producer"
+  },
+  {
+    "word": "Catalog",
+    "definition": "Items and services end users can order from a catalog - sc_catalog"
+  },
+  {
+    "word": "Category",
+    "definition": "Categories to organize Service Catalog Items - sc_category"
+  },
+  {
+    "word": "Catalog UI Policy",
+    "definition": "Fields to display when viewing Catalog Tasks, Catalog Items, and Requested Item Tasks - catalog_ui_policy"
+  },
+  {
+    "word": "Variable Set",
+    "definition": "Group of variables shared between catalog items - item_option_new_set"
+  },
+  {
+    "word": "Content Item",
+    "definition": "Service Catalog items for providing information instead of goods or services - sc_cat_item_content"
+  },
+  {
+    "word": "Execution Plan",
+    "definition": "Execution Plans defining how to procure, configure and install Catalog Items - sc_cat_item_delivery_plan"
+  },
+  {
+    "word": "Order Guide",
+    "definition": "Guides to order multiple related Catalog Items as a single request - sc_cat_item_guide"
+  },
+  {
+    "word": "Catalog Client Scripts",
+    "definition": "Client-side JavaScript for running business logic on catalog items or variable sets when certain browser events occur - catalog_script_client"
+  },
+  {
+    "word": "Report",
+    "definition": "Controls to create, display, and publish reports - sys_report"
+  },
+  {
+    "word": "Metric Definition",
+    "definition": "Metric controls for collecting report data - metric_definition"
+  },
+  {
+    "word": "Scheduled Email Of Report",
+    "definition": "Reports to schedule for automatic generation and distribution by email - sysauto_report"
+  },
+  {
+    "word": "Chart Colors",
+    "definition": "Controls to define which colors a particular report uses - sys_report_chart_color"
+  },
+  {
+    "word": "Color Definition",
+    "definition": "Colors available for reports to use - sys_report_color"
+  },
+  {
+    "word": "Range",
+    "definition": "Controls to define the label, color, and values included in a reported range - sys_report_range"
+  },
+  {
+    "word": "Data Source",
+    "definition": "Data sources are used to used to import data from external sources such as a file, JDBC database, or LDAP directory service - sys_data_source"
+  },
+  {
+    "word": "Import Set Web Service",
+    "definition": "v_ws_creator"
+  },
+  {
+    "word": "Scheduled Data Import",
+    "definition": "Scheduled imports are used to schedule the import of data using data sources and can leverage transform maps - scheduled_import_set"
+  },
+  {
+    "word": "Scripted REST API",
+    "definition": "Scripted REST APIs are used to create custom inbound REST APIs - sys_ws_definition"
+  },
+  {
+    "word": "Scripted Web Service",
+    "definition": "Scripted SOAP Web Services are used to create custom inbound SOAP Web Services - sys_web_service"
+  },
+  {
+    "word": "Table Transform Map",
+    "definition": "Transform maps are used to transform data from an import set's temporary staging table to a target table - sys_transform_map"
+  },
+  {
+    "word": "Export Definition",
+    "definition": "Export Definitions are used to define the data that will be included in an Export Set - sys_export_definition"
+  },
+  {
+    "word": "Export Set",
+    "definition": "Controls for exporting data to an external source - sys_export_set"
+  },
+  {
+    "word": "Export Target",
+    "definition": "Export Targets specify the target file on a MID server that Export Set data will be written to - sys_export_target"
+  },
+  {
+    "word": "REST Message",
+    "definition": "REST messages are used to make outbound HTTP requests to REST APIs - sys_rest_message"
+  },
+  {
+    "word": "Scheduled Data Export",
+    "definition": "Scheduled Exports are used to specify a schedule when Export Sets will be run. A single export can be scheduled or regular intervals can be scheduled with support for including only delta records - scheduled_data_export"
+  },
+  {
+    "word": "SOAP Message",
+    "definition": "SOAP messages are used to make outbound HTTP requests to SOAP Web Services - sys_soap_message"
+  },
+  {
+    "word": "Workflow",
+    "definition": "Controls for automating multi-step processes with a sequence of activities - wf_workflow"
+  },
+  {
+    "word": "Workflow Schedule",
+    "definition": "Controls to automatically run a workflow on a schedule - wf_workflow_schedule"
+  },
+  {
+    "word": "Schedule",
+    "definition": "Schedule during which Changes may be performed - cmn_schedule"
+  },
+  {
+    "word": "Blackout Schedule",
+    "definition": "Schedule during which Changes are prohibited from being performed - cmn_schedule_blackout"
+  },
+  {
+    "word": "Maintenance Schedule",
+    "definition": "Schedule during which maintenance may be performed on specific CIs - cmn_schedule_maintenance"
+  },
+  {
+    "word": "Risk Conditions",
+    "definition": "Rick conditions for change requests - risk_conditions"
+  },
+  {
+    "word": "Relative Duration",
+    "definition": "Scheduling options for calculating a target time or duration - cmn_relative_duration"
+  },
+  {
+    "word": "",
+    "definition": ""
+  }
+]
