@@ -1,23 +1,28 @@
 [
   {
     "word": "Table",
-    "definition": "Tables available to store instance data. Each table stores a collection of records. Each row corresponds to a single record, and each column corresponds to a field. Applications use tables and records to manage data and processes."
+    "definition": "Tables are a place to store data. Rows are generally considered a record, while columns are the different labels for data. They work the same way excel does. Applications use tables and records to manage data and processes.",
+    "definition-old": "Tables available to store instance data. Each table stores a collection of records. Each row corresponds to a single record, and each column corresponds to a field. Applications use tables and records to manage data and processes."
   },
   {
     "word": "Table Column",
-    "definition": "Controls to specify the properties of database tables and columns such as data type, length, and default value"
+    "definition": "A single value or property of a record for a table. E.g. a 'user' would have the column 'first_name', and thus their first name would be stored within that column",
+    "definition-old": "Controls to specify the properties of database tables and columns such as data type, length, and default value"
   },
   {
     "word": "Many To Many Definition",
-    "definition": "Many-to-many relationship between two tables for allowing one table to be a related list of another"
+    "definition": "A two way relation between two tables that allow for multiple records(rows) to be related to either table. E.g. Books and Authors. An author could write many books, and books can have many authors.",
+    "definition-old": "Many-to-many relationship between two tables for allowing one table to be a related list of another"
   },
   {
     "word": "Relationship",
-    "definition": "Controls to create a relationship between two data tables, which are required to display related lists"
+    "definition": "How two tables are connected to each other. E.g. one-to-many, many-to-many. Either way, it's just a set of rules added to a table column that defines how it relates to another table.",
+    "definition-old": "Controls to create a relationship between two data tables, which are required to display related lists"
   },
   {
     "word": "Form",
-    "definition": "Controls to specify what fields to show on a form for a particular view or user"
+    "definition": "A collection of inputs that allow users to fill in data.",
+    "definition-old": "Controls to specify what fields to show on a form for a particular view or user"
   },
   {
     "word": "List Layout",
@@ -29,11 +34,13 @@
   },
   {
     "word": "Related List",
-    "definition": "Related lists display records in another table that have a relationship to the current record. Users can view and modify information in related lists using standard list controls."
+    "definition": "While viewing a record in Table A, this displays a list of records in Table B that have a relation to the currently viewed record.",
+    "definition-old": "Related lists display records in another table that have a relationship to the current record. Users can view and modify information in related lists using standard list controls."
   },
   {
     "word": "Style",
-    "definition": "Controls to specify the CSS styling of a particular field"
+    "definition": "A property of a html tag that allows for added CSS styles to it.",
+    "definition-old": "Controls to specify the CSS styling of a particular field"
   },
   {
     "word": "Context Menu",
