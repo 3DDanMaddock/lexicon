@@ -1,5 +1,6 @@
 const config = {
-  rowTotal: 88,
+  columns: 89,
+  rows: 57,
 };
 
 export default config;
